@@ -12,7 +12,14 @@ def process(text_inp):
     while text != '0':
         key_number = int(text)
         text = f_pointer.readline()
+        
+        
+        
+        print(key_number)
         print(text)
+        
+        
+        
         text = f_pointer.readline()
         
 process(file_inp)
